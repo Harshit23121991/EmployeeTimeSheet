@@ -1,0 +1,47 @@
+body{
+    background: #f3f3f3;
+    }
+    .card-wight{
+    background: #FFF;
+    }
+    .margin-auto{
+    margin: auto;
+    }
+    .content-panel{
+        width: 100%;
+        padding: 10px;
+        min-height: 450px;
+    }
+    .card-panel{
+        padding: 16px 0;
+        margin: 16px 0;
+        width: 100%;
+    }
+    .header {
+        background: #bde3f8;
+        width: 100%;
+        min-height: 75px;
+    }
+    .logo {
+        padding: 10px 5px;
+        float: left;
+    }
+    .logo img{
+        width: 8rem;
+    }
+    .menu {
+        float: left;
+        padding: 0px;
+        width: 100%;
+        margin: 0;
+    }
+    nav{
+        padding: 16px 0;
+    }
+    .table-bordered th{
+        background: #797979;
+        color: #FFF;
+    }   
+ .table-bordered tr:nth-child(odd){
+    background: #EEE;
+ }   

@@ -28,9 +28,14 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/styles/_bootstrap.css",
+              "src/assets/styles/custom.css",
+              "src/assets/styles/menu-responsive.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              
+            ]
           },
           "configurations": {
             "production": {

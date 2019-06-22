@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { AddEmployeeComponent } from './add-employee/add-employee.component';
 import { EmployeeDetailsComponent } from './employee-details/employee-details.component';
 import { TimesheetUploadComponent } from './timesheet-upload/timesheet-upload.component';
+import { RegisterComponent } from './register/register.component';
 
 
 const routes: Routes = [
@@ -12,7 +13,8 @@ const routes: Routes = [
  { path: 'login', component: LoginComponent },
  { path: 'addemployee', component: AddEmployeeComponent },
  { path: 'employeedetails', component: EmployeeDetailsComponent },
- { path: 'timesheetupload', component: TimesheetUploadComponent }
+ { path: 'timesheetupload', component: TimesheetUploadComponent },
+ { path: 'login/register', component: RegisterComponent }
 ]
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

@@ -7,6 +7,7 @@ import { LoginComponent } from './login/login.component';
 import { AddEmployeeComponent } from './add-employee/add-employee.component';
 import { EmployeeDetailsComponent } from './employee-details/employee-details.component';
 import { TimesheetUploadComponent } from './timesheet-upload/timesheet-upload.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { TimesheetUploadComponent } from './timesheet-upload/timesheet-upload.co
     LoginComponent,
     AddEmployeeComponent,
     EmployeeDetailsComponent,
-    TimesheetUploadComponent
+    TimesheetUploadComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
